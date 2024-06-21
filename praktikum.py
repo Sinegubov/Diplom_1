@@ -5,6 +5,7 @@ from praktikum.burger import Burger
 from praktikum.database import Database
 from praktikum.ingredient import Ingredient
 
+
 def main():
     # Инициализируем базу данных
     database: Database = Database()
