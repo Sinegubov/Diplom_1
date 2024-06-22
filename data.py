@@ -14,3 +14,20 @@ class DataTestBurger:
             "(==== WhiteBun ====)\n\n"
             "Price: 5.0"
         )
+
+
+class DataDatabaseTestBurger:
+    expected_buns = [
+        ("black bun", 100),
+        ("white bun", 200),
+        ("red bun", 300)
+    ]
+
+    expected_ingredients = [
+        ("hot sauce", 100),
+        ("sour cream", 200),
+        ("chili sauce", 300),
+        ("cutlet", 100),
+        ("dinosaur", 200),
+        ("sausage", 300)
+    ]

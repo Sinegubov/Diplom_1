@@ -1,11 +1,10 @@
 import pytest
 
+from helpers.generator import Generator
 from praktikum.ingredient_types import *
+from mocks.mock_ingredient import *
 from praktikum.burger import Burger
 from data import DataTestBurger
-from helpers.generator import Generator
-
-from mocks.mock_ingredient import *
 from mocks.mock_bun import *
 
 
